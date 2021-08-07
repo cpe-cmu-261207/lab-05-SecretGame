@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 import Header from './component/Header';
 import Todo from './component/Todo';
+import Footer from './component/Footer';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Todo></Todo>
 
       {/* footer section */}
-      <p className='text-center text-gray-400'> © 2021 by Winnapat kaewmora </p>
+      <Footer></Footer>
+      
     </div>
   );
 }
